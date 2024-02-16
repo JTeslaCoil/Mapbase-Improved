@@ -1401,10 +1401,10 @@ bool CClientShadowMgr::Init()
 
 #ifndef MAPBASE
 	bool bTools = CommandLine()->CheckParm( "-tools" ) != NULL;
-	m_nMaxDepthTextureShadows = bTools ? 4 : 1;	// Just one shadow depth texture in games, more in tools
+	m_nMaxDepthTextureShadows = bTools ? 4 : 8;	// Just one shadow depth texture in games, more in tools
 #else
 	// 5 lets mappers use up to 4 shadow-casting projected textures, which is better than 3.
-	int iNumShadows = CommandLine()->ParmValue( "-numshadowtextures", 5 );
+	int iNumShadows = CommandLine()->ParmValue( "-numshadowtextures", 9 );
 	m_nMaxDepthTextureShadows = iNumShadows;
 #endif
 
