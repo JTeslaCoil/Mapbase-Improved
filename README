@@ -25,6 +25,13 @@ https://github.com/mapbase-source/source-sdk-2013/wiki/Introduction-to-Mapbase
 
 //=========================================================================================================================
 
+This version of Mapbase will include many more features such as:
+
+- view bobbing/rolling.
+- Increased env_projectedtexture limit
+
+//=========================================================================================================================
+
 Mapbase is an open-source project and its contents can be distributed and used at the discretion of its users. However, this project contains content from
 a vast number of different sources which have their own licensing or attribution requirements. We try to handle most of that ourselves, but users who plan on
 distributing Mapbase content are expected to comply with certain rules.
@@ -206,7 +213,7 @@ THIS DOCUMENT DESCRIBES A CONTRACT BETWEEN YOU AND VALVE
 CORPORATION ("Valve").  PLEASE READ IT BEFORE DOWNLOADING OR USING 
 THE SOURCE ENGINE SDK ("SDK"). BY DOWNLOADING AND/OR USING THE 
 SOURCE ENGINE SDK YOU ACCEPT THIS LICENSE. IF YOU DO NOT AGREE TO 
-THE TERMS OF THIS LICENSE PLEASE DON’T DOWNLOAD OR USE THE SDK.  
+THE TERMS OF THIS LICENSE PLEASE DONÂ’T DOWNLOAD OR USE THE SDK.  
 
   You may, free of charge, download and use the SDK to develop a modified Valve game 
 running on the Source engine.  You may distribute your modified Valve game in source and 
